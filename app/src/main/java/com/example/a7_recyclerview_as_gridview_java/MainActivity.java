@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new GridLayoutManager(context,2));
+        recyclerView.setLayoutManager(new GridLayoutManager(context,4));
     }
     private void refreshAdapter(List<Member> members) {
         CustomAdapter adapter = new CustomAdapter(context,members);
